@@ -175,11 +175,6 @@ section {
   width: 400px;
   margin: auto 0;
 }
-.circle-image {
-  border-radius: 50%;
-  height: 500px;
-  width: 900px;
-}
 
 .section__text {
   align-self: center;
@@ -339,20 +334,18 @@ section {
 }
 
 .article-container {
-  display: grid;
+  display: flex;
   text-align: initial;
-  grid-template-columns: repeat(3, 1fr); /* Создает три столбца равной ширины */
-  gap: 10px;
   flex-wrap: wrap;
   flex-direction: row;
-  /* gap: 2.5rem; */
-  /* justify-content: space-around; */
+  gap: 2.5rem;
+  justify-content: space-around;
 }
 
 article {
   display: flex;
   width: 10rem;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   gap: 0.5rem;
 }
 
@@ -372,11 +365,11 @@ article .icon {
 }
 
 .project-img {
-  align-items:center;
   border-radius: 2rem;
-  width: 400px;
-  height: 400px;
+  width: 90%;
+  height: 90%;
 }
+
 
 .project-title {
   margin: 1rem;
@@ -392,7 +385,6 @@ article .icon {
 
 #contact {
   display: flex;
-  margin-top: 100px;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
